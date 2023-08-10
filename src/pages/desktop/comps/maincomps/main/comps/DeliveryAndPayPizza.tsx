@@ -1,3 +1,4 @@
+import "./DeliveryAndPayPizza.css"
 export default function DeliveryAndPayPizza() {
     return (
         <div className="DeliveryAndPayPizza">

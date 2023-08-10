@@ -1,3 +1,4 @@
+import "./Proposals.css"
 export default function Proposals() {
     return (
         <div className="Proposals">

@@ -1,0 +1,342 @@
+.ChoosePizza {
+
+}
+
+.ChoosePizzaCaption {
+
+}
+
+.ChoosePizzaCaptionText {
+    color: #000;
+    text-align: center;
+    font-family: Alegreya; /*Не знаю как подгрузить*/
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 65px;
+    letter-spacing: 1px;
+}
+
+.ChoosePizzaFilter {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.ChoosePizzaFilter > p {
+    margin-left: 40px;
+}
+
+/*.ChoosePizzaSamples {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+.ChoosePizzaSamplesCaption {
+    width: 264px;
+    color: #000;
+    text-align: center;
+    font-family: Alegreya; /*Не знаю как подгрузить*/
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px; /* 125% */
+}
+
+.ChoosePizzaSamplesButton {
+    width: 240px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #E52D2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ChoosePizzaSamplesButtonCaption {
+    color: #FFF;
+    font-family: Alegreya;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ChoosePizzaSamplesDescription {
+    width: 264px;
+    color: #848A9A;
+    text-align: center;
+    font-family: Roboto; /*Не знаю как подгрузить*/
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+}
+
+.ChoosePizzaSamplesSize {
+
+}
+
+.ChoosePizzaSamplesSizeChoose {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #EFF0F1;
+}
+
+.ChoosePizzaSamplesSizeChooseGray, #GrayButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #EFF0F1;
+}
+
+.ChoosePizzaSamplesSizeChooseTextGray, #GrayText {
+    width: 58px;
+    color: #82909F;
+    text-align: center;
+    font-family: Roboto; /*Не знаю как подгрузить*/
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+}
+
+.ChoosePizzaSamplesSizeChooseWhite, #WhiteButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #FFF;
+}
+
+.ChoosePizzaSamplesSizeChooseTextBlack, #BlackText {
+    color: #000;
+    text-align: center;
+    font-family: Roboto; /*Не знаю как подгрузить*/
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+}
+
+.ChoosePizzaSamplesPrice {
+    width: 264px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto; /*Не знаю как подгрузить*/
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.ChoosePizzaSamplesMatrix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ChoosePizzaSamples {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    flex-wrap: wrap;
+}
+
+.ChoosePizzaSample {
+    width: 304px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 5px 0px rgba(165, 169, 176, 0.30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.ChoosePizzaSamplesTopInside {
+    width: 240px;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 4.013px;
+    background: #FFF;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChoosePizzaSamplesTopInsideCircles {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    z-index: 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-items: center;
+}
+
+.ChoosePizzaSamplesTopInsideSVG {
+    /*width: 194px;*/
+    /*height: 194px;*/
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.00);
+    z-index: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    justify-items: center;
+    align-items: center;
+}
+
+.ChoosePizzaSamplesTopInsideSVGPizza {
+    width: 183.699px;
+    height: 183.699px;
+    /*width: auto;*/
+    /*height: auto;*/
+    flex-shrink: 0;
+}
+
+#Pizza01 {
+    background: url("../../../../../../../public/images/01.png") no-repeat;
+    /*background-position: center center;*/
+    background-position: center;
+}
+
+#Pizza02 {
+    background: url("../../../../../../../public/images/02.png") no-repeat;
+    width: 212.106px;
+    height: 212.106px;
+    background-position: center;
+}
+
+#Pizza03 {
+    background: url("../../../../../../../public/images/03.png") no-repeat;
+    background-position: center;
+}
+
+#Pizza04 {
+    background: url("../../../../../../../public/images/04.png") no-repeat;
+    width: 155.292px;
+    height: 155.292px;
+    background-position: center;
+}
+
+#Pizza05 {
+    background: url("../../../../../../../public/images/05.png") no-repeat;
+    background-position: center;
+}
+
+#Pizza06 {
+    background: url("../../../../../../../public/images/06.png") no-repeat;
+    background-position: center;
+}
+
+#Pizza07 {
+    background: url("../../../../../../../public/images/07.png") no-repeat;
+    background-position: center;
+}
+
+#Pizza08 {
+    background: url("../../../../../../../public/images/08.png") no-repeat;
+    background-position: center;
+}
+
+#Pizza09 {
+    background: url("../../../../../../../public/images/09.png") no-repeat;
+    background-position: center;
+}
+
+#Pizza10 {
+    background: url("../../../../../../../public/images/10.png") no-repeat;
+    background-position: center;
+}
+
+#Pizza11 {
+    background: url("../../../../../../../public/images/11.png") no-repeat;
+    background-position: center;
+}
+
+#Pizza12 {
+    background: url("../../../../../../../public/images/12.png") no-repeat;
+    background-position: center;
+}
+
+
+.ChoosePizzaFilterAll {
+    color: #E52D2D;
+    font-family: Alegreya; /*Не знаю как подгрузить*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ChoosePizzaFilterCheese {
+    color: #000;
+    font-family: Alegreya; /*Не знаю как подгрузить*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ChoosePizzaFilterMeat {
+    color: #000;
+    font-family: Alegreya; /*Не знаю как подгрузить*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ChoosePizzaFilterSpicy {
+    color: #000;
+    font-family: Alegreya; /*Не знаю как подгрузить*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ChoosePizzaFilterVegan {
+    color: #000;
+    font-family: Alegreya; /*Не знаю как подгрузить*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

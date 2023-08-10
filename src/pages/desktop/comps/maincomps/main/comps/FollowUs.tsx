@@ -1,3 +1,5 @@
+import "./FollowUs.css"
+
 export default function FollowUs() {
     return (
         <div className="FollowUs">

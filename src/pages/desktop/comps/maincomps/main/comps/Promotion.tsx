@@ -1,3 +1,5 @@
+import "./Promotion.css"
+
 export default function Promotion() {
     return (
         <div className="Promotion">

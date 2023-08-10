@@ -1,3 +1,4 @@
+import "./PizzaForOrder.css"
 export default function PizzaForOrders() {
     return (
         <div className="PizzaForOrder">
@@ -19,7 +20,6 @@ export default function PizzaForOrders() {
                 <div className="PizzaOrderPicCuttingBoard">
 
                 </div>
-                <image src="../../../../pics/Leaves.png"></image>
                 <div className="PizzaOrderPicLeaves">
 
                 </div>

@@ -1,3 +1,4 @@
+import "./ChoosePizza.css"
 export default function ChoosePizza() {
     return (
         <div className="ChoosePizza">
