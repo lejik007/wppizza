@@ -40,19 +40,12 @@ export default function HeaderDesktop() {
                     </div>
                 </div>
                 <div className="Order">
-                    {/*<div className="OrderLeft">*/}
-                        <OrderLeft/>
-                    {/*    <div className="OrderNumber">*/}
-                    {/*        <rect className="OrderNumberRect">*/}
-                    {/*            3*/}
-                    {/*        </rect>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+                    <OrderLeft/>
                     <div className="OrderRight">
                         <div className="OrderYour">
-                        <p>
-                            Ваш заказ
-                        </p>
+                            <p>
+                                Ваш заказ
+                            </p>
                         </div>
                         <div className="OrderContain">
                             <p>
