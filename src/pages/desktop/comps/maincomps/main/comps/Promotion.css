@@ -11,6 +11,10 @@
     justify-content: center;
 }
 
+#PromotionPreparationMiddle {
+    flex-direction: row-reverse;
+}
+
 .PromotionPreparationFrame {
     width: 314px;
     height: 314px;
