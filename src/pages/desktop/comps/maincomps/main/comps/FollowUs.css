@@ -1,4 +1,3 @@
-
 .FollowUs {
     display: flex;
     flex-direction: column;
@@ -45,8 +44,6 @@
 .FollowUsPics > div {
     margin: 0;
 }
-
-/*Не получается сделать как в шаблоне*/
 
 .FollowUsPics11 {
     background: url("../../../../../../../public/images/FollowUs11.png") no-repeat;
