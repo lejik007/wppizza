@@ -9,6 +9,8 @@ import StoreProvider from '@/providers/store';
 
 import Desktop from '../pages/desktop/Desktop';
 
+// import $font from 'wppizza-master/src/styles/modules/variables.sass'
+
 export const metadata = {
     title: 'Nextjs Starter',
     description: 'Default starter for projects',

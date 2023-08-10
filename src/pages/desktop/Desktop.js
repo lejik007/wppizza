@@ -1,6 +1,6 @@
-import HeaderDesktop from "./comps/header/HeaderDesktop";
-import FooterDesktop from "./comps/footer/FooterDesktop";
-import MainDesktop from "./comps/main/MainDesktop";
+import HeaderDesktop from "@/pages/desktop/comps/maincomps/header/HeaderDesktop";
+import FooterDesktop from "@/pages/desktop/comps/maincomps/footer/FooterDesktop";
+import MainDesktop from "@/pages/desktop/comps/maincomps/main/MainDesktop";
 
 export default function Desktop() {
     return (
