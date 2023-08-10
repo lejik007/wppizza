@@ -1,0 +1,34 @@
+.OrderLeft {
+    display: grid;
+    grid-template: 'OrderNumber'
+                    'OrderPic';
+    grid-area: OrderLeft;
+}
+
+.OrderNumber {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto; /* Не знаю как его подгрузить */
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17.5px;
+}
+
+.OrderNumberRect {
+    border-radius: 10px;
+    background: #E52D2D;
+    grid-area: OrderNumber;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.OrderPic {
+    grid-area: OrderPic;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}

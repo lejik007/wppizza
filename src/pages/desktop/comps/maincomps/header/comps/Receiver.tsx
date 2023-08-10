@@ -1,3 +1,4 @@
+import "./Receiver.css"
 export default function Receiver() {
     return (
         <rect className="Receiver">

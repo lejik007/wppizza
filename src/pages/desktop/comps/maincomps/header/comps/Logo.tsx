@@ -1,3 +1,5 @@
+import "./Logo.css"
+
 export default function Logo() {
     return (
         <rect className="Logo">

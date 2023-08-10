@@ -1,7 +1,7 @@
 import './HeaderDesktop.css'
 import Logo from "@/pages/desktop/comps/maincomps/header/comps/Logo";
 import Receiver from "@/pages/desktop/comps/maincomps/header/comps/Receiver";
-import OrderPic from "@/pages/desktop/comps/maincomps/header/comps/OrderPic";
+import OrderLeft from "@/pages/desktop/comps/maincomps/header/comps/OrderLeft";
 import English from "@/pages/desktop/comps/maincomps/header/comps/English";
 
 export default function HeaderDesktop() {
@@ -40,14 +40,14 @@ export default function HeaderDesktop() {
                     </div>
                 </div>
                 <div className="Order">
-                    <div className="OrderLeft">
-                        <OrderPic/>
-                        <div className="OrderNumber">
-                            <rect className="OrderNumberRect">
-                                3
-                            </rect>
-                        </div>
-                    </div>
+                    {/*<div className="OrderLeft">*/}
+                        <OrderLeft/>
+                    {/*    <div className="OrderNumber">*/}
+                    {/*        <rect className="OrderNumberRect">*/}
+                    {/*            3*/}
+                    {/*        </rect>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                     <div className="OrderRight">
                         <div className="OrderYour">
                         <p>
