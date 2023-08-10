@@ -27,23 +27,6 @@
     grid-template-columns: repeat(7, 1fr);
 }
 
-/*.English {*/
-/*    color: #000;*/
-/*    text-align: center;*/
-/*    font-family: Alegreya; !* Не знаю как его подгрузить *!*/
-/*    font-size: 18px;*/
-/*    font-style: normal;*/
-/*    font-weight: 900;*/
-/*    line-height: normal;*/
-/*    letter-spacing: 1px;*/
-/*    text-transform: uppercase;*/
-/*}*/
-
-/*.EnglishRect {*/
-/*    border-radius: 24px;*/
-/*    background: #EFF0F1;*/
-/*}*/
-
 .HeaderDesktop {
     margin-top: 60px;
     /*width: 1920px;*/
@@ -105,46 +88,10 @@
     line-height: 18px;
 }
 
-/*.OrderLeft {*/
-/*    display: grid;*/
-/*    grid-template: 'OrderNumber'*/
-/*                    'OrderPic';*/
-/*    grid-area: OrderLeft;*/
-/*}*/
-
 .OrderRight {
     display: grid;
     grid-area: OrderRight;
 }
-
-/*.OrderNumber {*/
-/*    color: #FFF;*/
-/*    text-align: center;*/
-/*    font-family: Roboto; !* Не знаю как его подгрузить *!*/
-/*    font-size: 11px;*/
-/*    font-style: normal;*/
-/*    font-weight: 500;*/
-/*    line-height: 17.5px;*/
-/*}*/
-
-/*.OrderNumberRect {*/
-/*    border-radius: 10px;*/
-/*    background: #E52D2D;*/
-/*    grid-area: OrderNumber;*/
-/*    grid-column-start: 2;*/
-/*    grid-column-end: 2;*/
-/*    grid-row-start: 1;*/
-/*    grid-row-end: 1;*/
-
-/*}*/
-
-/*.OrderPic {*/
-/*    grid-area: OrderPic;*/
-/*    grid-column-start: 1;*/
-/*    grid-column-end: 1;*/
-/*    grid-row-start: 2;*/
-/*    grid-row-end: 2;*/
-/*}*/
 
 .OrderYour {
     color: #000;
@@ -161,7 +108,3 @@
     display: grid;
     grid-template: 'Receiver NO';
 }
-
-/*.Receiver {*/
-/*    grid-area: Receiver;*/
-/*}*/
