@@ -1,6 +1,4 @@
 .FooterDesktop {
-    /*width: 1920px;*/
-    /*height: 120px;*/
     flex-shrink: 0;
     background: #000;
     display: grid;
@@ -69,4 +67,3 @@
     align-items: center;
     justify-content: center;
 }
-
