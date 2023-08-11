@@ -1,0 +1,83 @@
+.Proposals {
+    padding: 132px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.ProposalsLeftImage {*/
+/*    border-radius: 5px;*/
+/*    background: linear-gradient(180deg, #FCC038 0%, #F88C1A 100%);*/
+/*    width: 416px;*/
+/*    height: 247px;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+.ProposalsCaption {
+    color: #000;
+    font-family: Alegreya; /*Не знаю как добавить шрифт*/
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    width: 416px;
+}
+
+.ProposalsCenterImage {
+    width: 416px;
+    height: 247px;
+    flex-shrink: 0;
+    background: url("../../../../../public/images/ProposalCenter.png");
+}
+
+.ProposalsDiscreption {
+    width: 416px;
+    color: #000;
+    font-family: Roboto; /*Не знаю как добавить шрифт*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+}
+
+/*.ProposalsLeftImage {*/
+/*    width: 416px;*/
+/*    height: 247px;*/
+/*    flex-shrink: 0;*/
+/*    border-radius: 5px;*/
+/*    background: linear-gradient(180deg, #FCC038 0%, #F88C1A 100%);*/
+/*    display: grid;*/
+/*}*/
+
+/*.ProposalsLeftImageLeft {*/
+/*    width: 260px;*/
+/*    height: 296px;*/
+/*    transform: rotate(-9deg);*/
+/*    flex-shrink: 0;*/
+/*    background: url("../../../../../public/images/ProposalLeftPizza.png");*/
+/*    z-index: 0;*/
+/*    grid-column-start: 1;*/
+/*    grid-column-end: 1;*/
+/*}*/
+
+/*.ProposalsLeftImageRight {*/
+/*    width: 179px;*/
+/*    height: 192px;*/
+/*    transform: rotate(12deg);*/
+/*    flex-shrink: 0;*/
+/*    opacity: 0.699999988079071;*/
+/*    background: url("../../../../../public/images/ProposalLeftPizzaMini.png");*/
+/*    z-index: 1;*/
+/*    grid-column-start: 2;*/
+/*    grid-column-end: 2;*/
+/*}*/
+
+.ProposalsRightImage {
+    width: 416px;
+    height: 247px;
+    flex-shrink: 0;
+    background: url("../../../../../public/images/ProposalRight.png");
+}
+
+#Tomato {
+    margin: 0.4em;
+}

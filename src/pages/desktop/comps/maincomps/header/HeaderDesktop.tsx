@@ -1,8 +1,8 @@
 import './HeaderDesktop.css'
-import Logo from "@/pages/desktop/comps/maincomps/header/comps/Logo";
-import Receiver from "@/pages/desktop/comps/maincomps/header/comps/Receiver";
-import OrderLeft from "@/pages/desktop/comps/maincomps/header/comps/OrderLeft";
-import English from "@/pages/desktop/comps/maincomps/header/comps/English";
+import Logo from "@/pages/comps/shared/header/Logo";
+import Receiver from "@/pages/comps/shared/header/Receiver";
+import OrderLeft from "@/pages/comps/shared/header/OrderLeft";
+import English from "@/pages/comps/shared/header/English";
 
 export default function HeaderDesktop() {
     return (

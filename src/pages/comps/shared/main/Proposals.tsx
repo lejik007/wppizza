@@ -1,23 +1,26 @@
 import "./Proposals.css"
+import ProposalsLeft from "@/pages/core/main/ProposalsLeft";
+
 export default function Proposals() {
     return (
         <div className="Proposals">
-            <div className="ProposalsLeft">
-                <div className="ProposalsLeftImage">
-                    <div className="ProposalsLeftImageLeft">
+            <ProposalsLeft/>
+            {/*<div className="ProposalsLeft">*/}
+            {/*    <div className="ProposalsLeftImage">*/}
+            {/*        <div className="ProposalsLeftImageLeft">*/}
 
-                    </div>
-                    <div className="ProposalsLeftImageRight">
+            {/*        </div>*/}
+            {/*        <div className="ProposalsLeftImageRight">*/}
 
-                    </div>
-                </div>
-                <p className="ProposalsCaption">
-                    Закажи 2 пиццы – 3-я в подарок
-                </p>
-                <p className="ProposalsDiscreption">
-                    При заказе 2-х больших пицц – средняя пицца в подарок
-                </p>
-            </div>
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*    <p className="ProposalsCaption">*/}
+            {/*        Закажи 2 пиццы – 3-я в подарок*/}
+            {/*    </p>*/}
+            {/*    <p className="ProposalsDiscreption">*/}
+            {/*        При заказе 2-х больших пицц – средняя пицца в подарок*/}
+            {/*    </p>*/}
+            {/*</div>*/}
             <div className="ProposalsCenter">
                 <div className="ProposalsCenterImage">
 
