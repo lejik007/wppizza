@@ -1,0 +1,110 @@
+.About {
+    color: #E52D2D;
+    font-family: Alegreya; /* Не знаю как его подгрузить */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Contacts {
+    color: #000;
+    font-family: Alegreya; /* Не знаю как его подгрузить */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Container {
+    padding-left: 304px;
+    padding-right: 304px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.HeaderDesktop {
+    margin-top: 60px;
+    width: 1920px;
+}
+
+.Menu {
+    color: #000;
+    font-family: Alegreya; /* Не знаю как его подгрузить */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.NO {
+    display: grid;
+    grid-template: 'Number'
+                   'OperationTime';
+    grid-area: NO;
+    width: 250px;
+}
+
+.Number {
+    color: #000;
+    font-family: Alegreya; /* Не знаю как его подгрузить */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.333px;
+    text-transform: uppercase;
+    grid-area: Number;
+}
+
+.OperationTime {
+    color: #848A9A;
+    font-family: Roboto; /* Не знаю как его подгрузить */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    grid-area: OperationTime;
+}
+
+.Order {
+    display: grid;
+    grid-template: 'OrderLeft OrderRight';
+}
+
+
+.OrderContain {
+    color: #848A9A;
+    font-family: Roboto; /* Не знаю как его подгрузить */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.OrderRight {
+    display: grid;
+    grid-area: OrderRight;
+}
+
+.OrderYour {
+    color: #000;
+    font-family: Alegreya; /* Не знаю как его подгрузить */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Phone {
+    display: grid;
+    grid-template: 'Receiver NO';
+}
