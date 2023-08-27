@@ -2,20 +2,20 @@ import "./ChoosePizzaFilter.css"
 export default function ChoosePizzaFilter() {
     return (
         <div className="ChoosePizzaFilter">
-            <a className="ChoosePizzaFilterAll">
-                Все
+            <a className="ChoosePizzaFilterAll" href={""}>
+                Все&nbsp;&nbsp;
             </a>
-            <a className="ChoosePizzaFilterSpicy">
-                Острые
+            <a className="ChoosePizzaFilterSpicy" href={""}>
+                Острые&nbsp;&nbsp;
             </a>
-            <a className="ChoosePizzaFilterMeat">
-                Мясные
+            <a className="ChoosePizzaFilterMeat" href={""}>
+                Мясные&nbsp;&nbsp;
             </a>
-            <a className="ChoosePizzaFilterCheese">
-                Сырные
+            <a className="ChoosePizzaFilterCheese" href={""}>
+                Сырные&nbsp;&nbsp;
             </a>
-            <a className="ChoosePizzaFilterVegan">
-                Веганские
+            <a className="ChoosePizzaFilterVegan" href={""}>
+                Веганские&nbsp;&nbsp;
             </a>
         </div>
     )

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import cn from "./styles.module.sass"
+import cn from "./pizza-element.module.sass"
 
-export default function Index(props) {
+export default function PizzaElement(props) {
     let pizzaName = props.pizzaName
     let pizzaDescription = props.pizzaDescription
     let pizzaPrice = props.pizzaPrice
@@ -18,19 +18,17 @@ export default function Index(props) {
                 {pizzaDescription}
             </p>
             <form>
-                {/*<fieldset>*/}
-                    <legend className={cn.ChoosePizzaSample}>Размер, см:</legend>
-                    <div>
-                        <input className={cn.ChoosePizzaSize} type="radio" id="Choice20" name="PizzaSize" value="20"/>
-                        <label className={cn.ChoosePizzaSize} htmlFor="Choice20">20</label>
+                <legend className={cn.ChoosePizzaSample}>Размер, см:</legend>
+                <div>
+                    <input className={cn.ChoosePizzaSize} type="radio" id="Choice20" name="PizzaSize" value="20"/>
+                    <label className={cn.ChoosePizzaSize} htmlFor="Choice20">20</label>
 
-                        <input className={cn.ChoosePizzaSize} type="radio" id="Choice30" name="PizzaSize" value="30"/>
-                        <label className={cn.ChoosePizzaSize} htmlFor="Choice30">30</label>
+                    <input className={cn.ChoosePizzaSize} type="radio" id="Choice30" name="PizzaSize" value="30"/>
+                    <label className={cn.ChoosePizzaSize} htmlFor="Choice30">30</label>
 
-                        <input className={cn.ChoosePizzaSize} type="radio" id="Choice40" name="PizzaSize" value="40"/>
-                        <label className={cn.ChoosePizzaSize} htmlFor="Choice40">40</label>
-                    </div>
-                {/*</fieldset>*/}
+                    <input className={cn.ChoosePizzaSize} type="radio" id="Choice40" name="PizzaSize" value="40"/>
+                    <label className={cn.ChoosePizzaSize} htmlFor="Choice40">40</label>
+                </div>
             </form>
             <p className={cn.ChoosePizzaSamplesPrice}>
                 {pizzaPrice}

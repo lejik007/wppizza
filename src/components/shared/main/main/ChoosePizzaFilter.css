@@ -4,8 +4,8 @@
     margin-top: 55px;
 }
 
-.ChoosePizzaFilter > p {
-    margin-left: 40px;
+.ChoosePizzaFilter > a {
+    /*margin-left: 40px;*/
 }
 
 .ChoosePizzaFilterAll {

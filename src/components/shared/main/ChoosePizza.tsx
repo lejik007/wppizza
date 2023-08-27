@@ -1,19 +1,7 @@
 import "./ChoosePizza.css"
 import ChoosePizzaCaption from "shared/main/main/ChoosePizzaCaption";
 import ChoosePizzaFilter from "shared/main/main/ChoosePizzaFilter";
-import Italian from "shared/main/main/tmp/Italian";
-import Margo from "shared/main/main/tmp/Margo";
-import BBQ from "shared/main/main/tmp/BBQ";
-import Vege from "shared/main/main/tmp/Vege";
-import Meat from "shared/main/main/tmp/Meat";
-import Vegetables from "shared/main/main/tmp/Vegetables";
-import Rom from "shared/main/main/tmp/Rom";
-import Mashrooms from "shared/main/main/tmp/Mashrooms";
-import Cheese from "shared/main/main/tmp/Cheese";
-import FourCheese from "shared/main/main/tmp/FourCheese";
-import PepperoniTomato from "shared/main/main/tmp/PepperoniTomato";
-import HamCheese from "shared/main/main/tmp/HamCheese";
-import Index from "core/Pizza-Element";
+import PizzaElement from "core/main/PizzaElement/PizzaElement";
 
 export default function ChoosePizza() {
     return (
@@ -22,62 +10,62 @@ export default function ChoosePizza() {
             <ChoosePizzaFilter/>
             <div className="ChoosePizzaSamplesMatrix">
                 <div className="ChoosePizzaSamples">
-                    <Index
+                    <PizzaElement
                         pizzaName={"Итальянская"}
                         pizzaDescription={"Томат, шампиньон, сыр, оливки, чили, соус, тесто, базилик"}
                         pizzaPrice={"от 699 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Маргарита"}
                         pizzaDescription={"Тесто со шпинатом, молодой сыр и колбаски, много колбасок"}
                         pizzaPrice={"от 479 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Барбекю"}
                         pizzaDescription={"Циплёнок (маленький кура), оливки, моцарелла, соус барбекю"}
                         pizzaPrice={"от 699 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Вегетарианская"}
                         pizzaDescription={"Томат, шампиньон, сыр, оливки, чили, соус, тесто, базилик"}
                         pizzaPrice={"от 399 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Мясная"}
                         pizzaDescription={"Томат, шампиньон, сыр, оливки, чили, соус, тесто, базилик"}
                         pizzaPrice={"от 699 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Овощная"}
                         pizzaDescription={"Тесто со шпинатом, молодой сыр и колбаски, много колбасок"}
                         pizzaPrice={"от 479 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Римская"}
                         pizzaDescription={"Циплёнок (маленький кура), оливки, моцарелла, соус барбекю"}
                         pizzaPrice={"от 699 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"С грибами"}
                         pizzaDescription={"Томат, шампиньон, сыр, оливки, чили, соус, тесто, базилик"}
                         pizzaPrice={"от 399 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Сырная"}
                         pizzaDescription={"Томат, шампиньон, сыр, оливки, чили, соус, тесто, базилик"}
                         pizzaPrice={"от 699 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Четыре сыра"}
                         pizzaDescription={"Тесто со шпинатом, молодой сыр и колбаски, много колбасок"}
                         pizzaPrice={"от 479 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Пепперони Фреш с томатами"}
                         pizzaDescription={"Циплёнок (маленький кура), оливки, моцарелла, соус барбекю"}
                         pizzaPrice={"от 699 руб."}
                     />
-                    <Index
+                    <PizzaElement
                         pizzaName={"Ветчина и сыр"}
                         pizzaDescription={"Томат, шампиньон, сыр, оливки, чили, соус, тесто, базилик"}
                         pizzaPrice={"от 399 руб."}
