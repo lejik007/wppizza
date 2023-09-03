@@ -6,6 +6,13 @@ export default function PizzaElement(props) {
     let pizzaDescription = props.pizzaDescription
     let pizzaPrice = props.pizzaPrice
     let pizzaPic = props.pizzaPic
+    let longName = props.longName
+    let br = <div><br/><br/></div>
+        if (longName != "True") {
+            br = <div><br/></div>
+        } else {
+            br = <></>
+        }
     const SIZE = 185
     let pizzaSize = SIZE
     return (
@@ -15,6 +22,7 @@ export default function PizzaElement(props) {
             </div>
             <p className={cn.ChoosePizzaSamplesCaption}>
                 {pizzaName}
+                {br}
             </p>
             <p className={cn.ChoosePizzaSamplesDescription}>
                 {pizzaDescription}

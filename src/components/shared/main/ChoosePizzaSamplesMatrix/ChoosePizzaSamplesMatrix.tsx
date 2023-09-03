@@ -70,6 +70,7 @@ export default function ChoosePizzaSamplesMatrix() {
                     pizzaDescription={"Циплёнок (маленький кура), оливки, моцарелла, соус барбекю"}
                     pizzaPrice={"от 699 руб."}
                     pizzaPic={'/images/11.png'}
+                    longName = {"True"}
                 />
                 <PizzaElement
                     pizzaName={"Ветчина и сыр"}
