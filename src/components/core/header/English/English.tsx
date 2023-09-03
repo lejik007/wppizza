@@ -4,7 +4,9 @@ export default function English() {
     return (
         <div className={cn.English}>
             <rect className="EnglishRect">
-                EN
+                <a href={""}>
+                    EN
+                </a>
             </rect>
         </div>
     )

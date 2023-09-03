@@ -5,11 +5,13 @@ export default function PizzaElement(props) {
     let pizzaName = props.pizzaName
     let pizzaDescription = props.pizzaDescription
     let pizzaPrice = props.pizzaPrice
+    let pizzaPic = props.pizzaPic
+    const SIZE = 185
+    let pizzaSize = SIZE
     return (
-
         <rect className={cn.choosePizza}>
             <div className={cn.choosePizzaSizeCirclesFrame}>
-                <Image className={cn.choosePizzaPic} src={'/images/01.png'} alt='Фото пиццы' width={185} height={185}/>
+                <Image className={cn.choosePizzaPic} src={pizzaPic} alt='Фото пиццы' width={pizzaSize} height={pizzaSize}/>
             </div>
             <p className={cn.ChoosePizzaSamplesCaption}>
                 {pizzaName}
@@ -38,7 +40,6 @@ export default function PizzaElement(props) {
                     Заказать
                 </p>
             </button>
-
         </rect>
     )
 }

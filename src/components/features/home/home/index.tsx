@@ -1,10 +1,10 @@
-import HeaderDesktop from "features/home/header/HeaderDesktop";
-import FooterDesktop from "shared/footer";
-import MainDesktop from "features/home/main/MainDesktop";
-
+import HeaderDesktop from "shared/header/Header/HeaderDesktop";
+import FooterDesktop from "core/Footer/FooterDesktop";
+import MainDesktop from "shared/main/Main/MainDesktop";
+import cn from "./index.module.sass"
 export default function Index() {
     return (
-        <div className="Desktop">
+        <div className={cn.Desktop}>
             <HeaderDesktop />
             <MainDesktop />
             <FooterDesktop />

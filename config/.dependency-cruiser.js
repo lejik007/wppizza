@@ -320,7 +320,7 @@ module.exports = {
             /* 
          If your TypeScript project makes use of types specified in 'types'
          fields in package.jsons of external dependencies, specify "types"
-         in addition to "main" in here, so enhanced-resolve (the resolver
+         in addition to "Main" in here, so enhanced-resolve (the resolver
          dependency-cruiser uses) knows to also look there. You can also do
          this if you're not sure, but still use TypeScript. In a future version
          of dependency-cruiser this will likely become the default.

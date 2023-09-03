@@ -1,4 +1,4 @@
-import cn from "core/header/OrderPic/orderPic.module.sass";
+import cn from "core/header/OrderPic/OrderPic.module.sass";
 import Image from "next/image";
 
 export default function OrderPic() {
@@ -8,7 +8,9 @@ export default function OrderPic() {
                 <Image src={'/images/svg/pizza.svg'} alt='Фото пиццы' width={80} height={80}/>
             </div>
             <rect className={cn.OrderPicNumber}>
-                3
+                <p className={cn.OrderNumber}>
+                    3
+                </p>
             </rect>
         </div>
     )
